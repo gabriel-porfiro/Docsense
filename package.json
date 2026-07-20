@@ -1,0 +1,16 @@
+{
+  "name": "docsense",
+  "version": "1.0.0",
+  "description": "",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.13.1",
+      "onFail": "download"
+    }
+  },
+  "workspaces": [
+    "api",
+    "web"
+  ]
+}
